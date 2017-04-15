@@ -5,6 +5,7 @@ class IdeasController < ApplicationController
   # GET /ideas.json
   def index
     @ideas = Idea.all
+    @active_tab = "ideas"
   end
 
   # GET /ideas/1
